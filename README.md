@@ -1,0 +1,1 @@
+# BD-triagem-facilitada
