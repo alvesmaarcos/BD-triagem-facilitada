@@ -30,7 +30,7 @@ if __name__ == "__main__":
     try:
         # Tenta estabelecer uma conexão
         with engine.connect() as connection:
-            print("✅ Conexão com o banco de dados bem-sucedida!")
+            print("Conexão com o banco de dados bem-sucedida!")
             
             # Exemplo de consulta simples para verificar
             query = text("SELECT version();")
@@ -39,4 +39,4 @@ if __name__ == "__main__":
             print(f"Versão do PostgreSQL: {db_version}")
 
     except Exception as e:
-        print(f"❌ Falha ao conectar ao banco de dados: {e}")
+        print(f"Falha ao conectar ao banco de dados: {e}")
